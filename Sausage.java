@@ -6,8 +6,8 @@ Glizzy Goblin
 19 September 2023
 */
 
-package wangxu.seven;
-import wangxu.seven.MeatTypeEnum.MeatType;
+package dongwangxu.seven;
+import dongwangxu.seven.MeatTypeEnum.MeatType;
 
 public class Sausage {
 
