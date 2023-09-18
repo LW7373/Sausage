@@ -6,7 +6,7 @@ Glizzy Goblin
 19 September 2023
 */
 
-package wangxu.seven;
+package dongwangxu.seven;
 
 public class MeatTypeEnum {
     
