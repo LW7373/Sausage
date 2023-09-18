@@ -9,6 +9,8 @@ Glizzy Goblin
 package wangxu.seven;
 
 public class MeatTypeEnum {
+    
+    // Create enum for meat type
     public enum MeatType{
         beef, pork, chicken, venison, turkey, vegan, lamb, mystery
     }
