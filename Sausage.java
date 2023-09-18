@@ -11,7 +11,7 @@ import wangxu.seven.MeatTypeEnum.MeatType;
 
 public class Sausage {
 
-    // class fields
+    // Class fields
     private String productName;  
     private MeatType MeatType;
     private double productionCost;
@@ -23,7 +23,7 @@ public class Sausage {
     private int fatPercentage;
     private boolean isCooked;
 
-    // default constructor - lindsay
+    // Default constructor - Lindsay
     public Sausage(){
         this.productName = "Classic Beef Sausage";
         this.MeatType = MeatType.beef;
@@ -37,7 +37,7 @@ public class Sausage {
         this.isCooked = false;
     }
 
-    // partial constructor 1 - nicholas
+    // Partial constructor 1 - Nicholas
     public Sausage(String productName, MeatType meatType, int packageWeight, double sausageLength){
         this.productName = "Mythical Mystery Meat Medley";
         this.MeatType = MeatType.mystery;
@@ -52,7 +52,7 @@ public class Sausage {
     }
 
 
-    // partial constructor 2 - nicholas
+    // Partial constructor 2 - Nicholas
     public Sausage(String productName, MeatType meatType, double productionCost, int leanMeatPercentage, int fatPercentage){
         this.productName = "Mini Glizzies for Weight Loss";
         this.MeatType = MeatType.chicken;
@@ -65,7 +65,7 @@ public class Sausage {
         this.isCooked = false;
     }
 
-    // full constructor - lindsay
+    // Full constructor - Lindsay
     public Sausage(String productName, MeatType meatType, double productionCost, double sellingPrice, int packageWeight, int numSausages, double sausageLength, int leanMeatPercentage, int fatPercentage, boolean isCooked){
         this.productName = productName;
         this.MeatType = meatType;
@@ -79,7 +79,7 @@ public class Sausage {
         this.isCooked = isCooked;
     }
 
-    // getters and setters - lindsay
+    // Getters and setters - Lindsay
     public String getProductName(){
         // User validation goes here
         return this.getProductName();
@@ -180,7 +180,7 @@ public class Sausage {
         this.isCooked = isCooked;
     }
 
-    // toString display - lindsay
+    // toString display - Lindsay
     public String toString(){
         String s = "Sausage Stats\n";
         s += "============================\n";
