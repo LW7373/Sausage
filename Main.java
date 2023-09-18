@@ -12,7 +12,7 @@ import wangxu.seven.MeatTypeEnum.MeatType;
 public class Main {
   public static void main(String[] args) {
     
-    // default constructor - lindsay
+    // Default constructor - Lindsay
     Sausage defaultSausage = new Sausage();
 
     System.out.println(defaultSausage);
@@ -31,7 +31,7 @@ public class Main {
     System.out.println(defaultSausage);
     
     /*
-    // partial constructor 1 - nicholas
+    // Partial constructor 1 - Nicholas
     Sausage sausageTwo = new Sausage();
     sausageTwo.setProductName("Merry Meat Mash");
     sausageTwo.setMeatType(MeatType.mystery);
@@ -40,11 +40,11 @@ public class Main {
 
     System.out.println(sausageTwo);
     
-    // partial constructor 2 - nicholas
+    // Partial constructor 2 - Nicholas
     
 
     */
-    // full constructor - lindsay
+    // Full constructor - Lindsay
     Sausage fullSausage = new Sausage("Cheery Chump Chick", MeatType.chicken, 1.00, 3.99, 700, 6, 5.0, 20, 80, true);
     
     System.out.println(fullSausage);
