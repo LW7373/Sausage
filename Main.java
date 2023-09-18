@@ -15,8 +15,10 @@ public class Main {
     // Default constructor - Lindsay
     Sausage defaultSausage = new Sausage();
 
+    // Dump
     System.out.println(defaultSausage);
 
+    // Change
     defaultSausage.setProductName("Perfect Piggy Pizzazz");
     defaultSausage.setMeatType(MeatType.pork);
     defaultSausage.setProductionCost(1.50);
@@ -28,6 +30,7 @@ public class Main {
     defaultSausage.setFatPercentage(75);
     defaultSausage.setIsCooked(true);
 
+    // Dump
     System.out.println(defaultSausage);
     
     /*
@@ -46,9 +49,11 @@ public class Main {
     */
     // Full constructor - Lindsay
     Sausage fullSausage = new Sausage("Cheery Chump Chick", MeatType.chicken, 1.00, 3.99, 700, 6, 5.0, 20, 80, true);
-    
+
+    // Dump
     System.out.println(fullSausage);
 
+    // Change
     fullSausage.setProductName("Terrific Twisted Turkey");
     fullSausage.setMeatType(MeatType.turkey);
     fullSausage.setProductionCost(1.75);
@@ -60,6 +65,7 @@ public class Main {
     fullSausage.setFatPercentage(60);
     fullSausage.setIsCooked(false);
 
+    // Dump
     System.out.println(fullSausage);
   }
 }
