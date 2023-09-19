@@ -65,6 +65,34 @@ public class Sausage {
         this.isCooked = false;
     }
 
+    // Partial Constructor 3 - Moses (Nutrition)
+    public Sausage(String productName, MeatType meatType, int packageWeight, int numSausages, double sausageLength, int leanMeatPercentage, int fatPercentage, boolean isCooked){
+        this.productName = productName;
+        this.MeatType = meatType;
+        this.packageWeight = packageWeight;
+        this.numSausages = numSausages;
+        this.sausageLength = sausageLength;
+        this.leanMeatPercentage = leanMeatPercentage;
+        this.fatPercentage = fatPercentage;
+        this.isCooked = isCooked;
+        this.productionCost = 2.00;
+        this.sellingPrice = 4.99;
+    }
+
+    // Partial Constructor 4 - Moses (Economics)
+    public Sausage(String productName, MeatType meatType, double productionCost, double sellingPrice, int packageWeight, int numSausages){
+        this.productName = productName;
+        this.MeatType = meatType;
+        this.productionCost = productionCost;
+        this.sellingPrice = sellingPrice;
+        this.packageWeight = packageWeight;
+        this.numSausages = numSausages;
+        this.sausageLength = 3.0;
+        this.leanMeatPercentage = 90;
+        this.fatPercentage = 10;
+        this.isCooked = true;
+    }
+
     // Full constructor - Lindsay
     public Sausage(String productName, MeatType meatType, double productionCost, double sellingPrice, int packageWeight, int numSausages, double sausageLength, int leanMeatPercentage, int fatPercentage, boolean isCooked){
         this.productName = productName;
@@ -80,9 +108,10 @@ public class Sausage {
     }
 
     // Getters and setters - Lindsay
+    // Removed Unnecessary Parenthesis (Moses)
     public String getProductName(){
         // User validation goes here
-        return this.getProductName();
+        return this.getProductName;
     }
 
     public void setProductName(String productName){
@@ -92,7 +121,7 @@ public class Sausage {
 
     public MeatType getMeatType(){
         // User validation goes here
-        return this.getMeatType();
+        return this.getMeatType;
     }
 
     public void setMeatType(MeatType meatType){
@@ -102,7 +131,7 @@ public class Sausage {
 
     public double getProductionCost(){
         // User validation goes here
-        return this.getProductionCost();
+        return this.getProductionCost;
     }
 
     public void setProductionCost(double productionCost){
@@ -112,7 +141,7 @@ public class Sausage {
 
     public double getSellingPrice(){
         // User validation goes here
-        return this.getSellingPrice();
+        return this.getSellingPrice;
     }
 
     public void setSellingPrice(double sellingPrice){
@@ -122,7 +151,7 @@ public class Sausage {
 
     public int getPackageWeight(){
         // User validation goes here
-        return this.getPackageWeight();
+        return this.getPackageWeight;
     }
 
     public void setPackageWeight(int packageWeight){
@@ -132,7 +161,7 @@ public class Sausage {
 
     public int getNumSausages(){
         // User validation goes here
-        return this.getNumSausages();
+        return this.getNumSausages;
     }
 
     public void setNumSausages(int numSausages){
@@ -142,7 +171,7 @@ public class Sausage {
 
     public double getSausageLength(){
         // User validation goes here
-        return this.getSausageLength();
+        return this.getSausageLength;
     }
 
     public void setSausageLength(double sausageLength){
@@ -152,7 +181,7 @@ public class Sausage {
 
     public int getLeanMeatPercentage(){
         // User validation goes here
-        return this.getLeanMeatPercentage();
+        return this.getLeanMeatPercentage;
     }
 
     public void setLeanMeatPercentage(int leanMeatPercentage){
@@ -162,7 +191,7 @@ public class Sausage {
 
     public int getFatPercentage(){
         // User validation goes here
-        return this.getFatPercentage();
+        return this.getFatPercentage;
     }
 
     public void setFatPercentage(int fatPercentage){
@@ -172,7 +201,7 @@ public class Sausage {
 
     public boolean isCooked(){
         // User validation goes here
-        return this.isCooked();
+        return this.isCooked;
     }
 
     public void setIsCooked(boolean isCooked){
