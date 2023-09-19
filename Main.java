@@ -2,7 +2,7 @@
 Moses Dong, Nicholas Xu, and Lindsay Wang
 Schenk
 AP CSA - Period 7
-Glizzy Goblin
+Glizzy Goblin - Main
 19 September 2023
 */
 
@@ -33,17 +33,41 @@ public class Main {
     // Dump
     System.out.println(defaultSausage);
     
-    /*
     // Partial constructor 1 - Nicholas
-    Sausage sausageTwo = new Sausage();
-    sausageTwo.setProductName("Merry Meat Mash");
-    sausageTwo.setMeatType(MeatType.mystery);
-    sausageTwo.setPackageWeight(954);
-    sausageTwo.setSausageLength(5.97);
+    Sausage mysterySausage = new Sausage("Merry Meat Mash", 1.8, 800, 4.99, 6);
+    
+    System.out.println(mysterySausage);
+    
+    mysterySausage.setProductName("Mini Meat Mash");
+    mysterySausage.setMeatType(MeatType.mystery);
+    mysterySausage.setProductionCost(1.8);
+    mysterySausage.setPackageWeight(800);
+    mysterySausage.setNumSausages(10);
+    mysterySausage.setSellingPrice(4.99);
+    mysterySausage.setSausageLength(6);
+    mysterySausage.setLeanMeatPercentage(80);
+    mysterySausage.setFatPercentage(20);
+    mysterySausage.setIsCooked(true);
 
-    System.out.println(sausageTwo);
+    System.out.println(mysterySausage);
     
     // Partial constructor 2 - Nicholas
+    Sausage miniSausage = new Sausage("Slimming Sausages for Weight Loss", MeatType.turkey, 16, 3, 85, 15);
+
+    System.out.println(miniSausage);
+
+    miniSausage.setProductName("Slimming Sausages for Weight Loss");
+    miniSausage.setMeatType(MeatType.turkey);
+    miniSausage.setProductionCost(3.8);
+    miniSausage.setPackageWeight(900);
+    miniSausage.setNumSausages(18);
+    miniSausage.setSellingPrice(8.49);
+    miniSausage.setSausageLength(2.75);
+    miniSausage.setLeanMeatPercentage(85);
+    miniSausage.setFatPercentage(15);
+    miniSausage.setIsCooked(true);
+
+    System.out.println(miniSausage);
     
     // Partial Constructor 3  - Moses
     Sausage nutritionSausage = new Sausage("Sausage Yay", MeatType.vegan, 20, 20, 7, 70, 30, false);
@@ -79,7 +103,7 @@ public class Main {
     economySausage.setIsCooked(true);
 
     System.out.println(economySausage);
-    */
+    
     // Full constructor - Lindsay
     Sausage fullSausage = new Sausage("Cheery Chump Chick", MeatType.chicken, 1.00, 3.99, 700, 6, 5.0, 20, 80, true);
 
