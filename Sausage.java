@@ -2,7 +2,7 @@
 Moses Dong, Nicholas Xu, and Lindsay Wang
 Schenk
 AP CSA - Period 7
-Glizzy Goblin
+Glizzy Goblin - Sausage Class
 19 September 2023
 */
 
@@ -38,26 +38,26 @@ public class Sausage {
     }
 
     // Partial constructor 1 - Nicholas
-    public Sausage(String productName, MeatType meatType, int packageWeight, double sausageLength){
-        this.productName = "Mythical Mystery Meat Medley";
+    public Sausage(String productName, double productionCost, double sellingPrice, double packageWeight, double sausageLength){
+        this.productName = "Mega Meat Mash";
         this.MeatType = MeatType.mystery;
-        this.productionCost = 2.40;
-        this.sellingPrice = 6.49;
-        this.packageWeight = 960;
-        this.numSausages = 12;
-        this.sausageLength = 6.0;
-        this.leanMeatPercentage = 50;
-        this.fatPercentage = 50;
+        this.productionCost = 3.60;
+        this.sellingPrice = 8.99;
+        this.packageWeight = 1600;
+        this.numSausages = 8;
+        this.sausageLength = 12.0;
+        this.leanMeatPercentage = 25;
+        this.fatPercentage = 75;
         this.isCooked = false;
     }
 
-
     // Partial constructor 2 - Nicholas
-    public Sausage(String productName, MeatType meatType, double productionCost, int leanMeatPercentage, int fatPercentage){
-        this.productName = "Mini Glizzies for Weight Loss";
+    public Sausage(String productName, MeatType meatType, int numSausages, double sausageLength, int leanMeatPercentage, int fatPercentage){
+        this.productName = "Diet Glizzy";
         this.MeatType = MeatType.chicken;
-        this.productionCost = 4.00;
-        this.packageWeight = 640;
+        this.productionCost = 3.10;
+        this.sellingPrice = 7.49;
+        this.packageWeight = 800;
         this.numSausages = 16;
         this.sausageLength = 3.0;
         this.leanMeatPercentage = 90;
@@ -111,7 +111,7 @@ public class Sausage {
     // Removed Unnecessary Parenthesis (Moses)
     public String getProductName(){
         // User validation goes here
-        return this.getProductName;
+        return this.getProductName();
     }
 
     public void setProductName(String productName){
@@ -121,7 +121,7 @@ public class Sausage {
 
     public MeatType getMeatType(){
         // User validation goes here
-        return this.getMeatType;
+        return this.getMeatType();
     }
 
     public void setMeatType(MeatType meatType){
@@ -131,7 +131,7 @@ public class Sausage {
 
     public double getProductionCost(){
         // User validation goes here
-        return this.getProductionCost;
+        return this.getProductionCost();
     }
 
     public void setProductionCost(double productionCost){
@@ -141,7 +141,7 @@ public class Sausage {
 
     public double getSellingPrice(){
         // User validation goes here
-        return this.getSellingPrice;
+        return this.getSellingPrice();
     }
 
     public void setSellingPrice(double sellingPrice){
@@ -151,7 +151,7 @@ public class Sausage {
 
     public int getPackageWeight(){
         // User validation goes here
-        return this.getPackageWeight;
+        return this.getPackageWeight();
     }
 
     public void setPackageWeight(int packageWeight){
@@ -161,7 +161,7 @@ public class Sausage {
 
     public int getNumSausages(){
         // User validation goes here
-        return this.getNumSausages;
+        return this.getNumSausages();
     }
 
     public void setNumSausages(int numSausages){
@@ -171,7 +171,7 @@ public class Sausage {
 
     public double getSausageLength(){
         // User validation goes here
-        return this.getSausageLength;
+        return this.getSausageLength();
     }
 
     public void setSausageLength(double sausageLength){
@@ -181,7 +181,7 @@ public class Sausage {
 
     public int getLeanMeatPercentage(){
         // User validation goes here
-        return this.getLeanMeatPercentage;
+        return this.getLeanMeatPercentage();
     }
 
     public void setLeanMeatPercentage(int leanMeatPercentage){
@@ -191,7 +191,7 @@ public class Sausage {
 
     public int getFatPercentage(){
         // User validation goes here
-        return this.getFatPercentage;
+        return this.getFatPercentage();
     }
 
     public void setFatPercentage(int fatPercentage){
