@@ -45,7 +45,40 @@ public class Main {
     
     // Partial constructor 2 - Nicholas
     
+    // Partial Constructor 3  - Moses
+    Sausage nutritionSausage = new Sausage("Sausage Yay", MeatType.vegan, 20, 20, 7, 70, 30, false);
 
+    System.out.println(nutritionSausage);
+
+    nutritionSausage.setProductName("The Most Nutritious Sausages");
+    nutritionSausage.setMeatType(MeatType.beef);
+    nutritionSausage.setProductionCost(6.00);
+    nutritionSausage.setSellingPrice(10.49);
+    nutritionSausage.setPackageWeight(1100);
+    nutritionSausage.setNumSausages(8);
+    nutritionSausage.setSausageLength(10);
+    nutritionSausage.setLeanMeatPercentage(50);
+    nutritionSausage.setFatPercentage(50);
+    nutritionSausage.setIsCooked(true);
+
+    System.out.println(nutritionSausage);
+
+    // Partial Constructor 4  - Moses
+    Sausage economySausage = new Sausage("Cheap Affordable Sausages", MeatType.venison, 2.90, 3.20, 190, 12);
+
+    System.out.println(economySausage);
+    economySausage.setProductName("Economical Brand Sausages");
+    economySausage.setMeatType(MeatType.chicken);
+    economySausage.setProductionCost(1.50);
+    economySausage.setSellingPrice(2.29);
+    economySausage.setPackageWeight(150);
+    economySausage.setNumSausages(9);
+    economySausage.setSausageLength(5);
+    economySausage.setLeanMeatPercentage(50);
+    economySausage.setFatPercentage(50);
+    economySausage.setIsCooked(true);
+
+    System.out.println(economySausage);
     */
     // Full constructor - Lindsay
     Sausage fullSausage = new Sausage("Cheery Chump Chick", MeatType.chicken, 1.00, 3.99, 700, 6, 5.0, 20, 80, true);
